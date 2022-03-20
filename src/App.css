@@ -1,0 +1,41 @@
+.Conteiner {
+  display: flex;
+  width: 100vw;
+  
+}
+.App {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.from-control {
+  display: flex;
+  margin-top: 2px auto;
+  
+}
+
+
+.from-control label {
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+
+
+  
+}
+
+.div_Botao{
+  display: flex;
+  width: 30px;
+  background-color: white;
+}
+
+.Botao{
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
