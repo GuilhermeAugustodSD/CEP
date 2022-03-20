@@ -29,6 +29,11 @@ select {
   
 }
 
+hr{
+  color: white;
+  bottom: 0;
+}
+
 .Botao {
   display: flex;
   width: 100%;

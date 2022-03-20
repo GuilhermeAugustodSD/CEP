@@ -16,17 +16,3 @@ head{
   background-color: #227f4A;
 }
 
-html {
-  height: 100%;
-  min-height: 100%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-
-footer {
-  margin-top: auto;
-}

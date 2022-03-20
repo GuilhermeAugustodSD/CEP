@@ -1,55 +1,41 @@
-
-
-#Top_bar .logo {
-    position: static;
-    float: left;
+.Conteiner_header {
+    background-color: #227f4A;
     width: 100%;
-    text-align: center;
-    margin: 0;
+    height: 80px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-#Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
+.div_logo{
+    width: 708px;
+    height: 80px;
+    
+}
+
+.image_logo{
+    display: flex;
+    position: absolute;
+    width: 201px;
     height: 60px;
-    line-height: 60px;
-    padding: 10px 0;
-}
-
-#Top_bar #logo img.logo-main {
-    display: none;
-}
-#Top_bar #logo img {
-    vertical-align: middle;
-    max-height: 100%;
-}
-img.scale-with-grid, #Content img {
     max-width: 100%;
     height: auto;
+    color: white;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+#Top_bar #menu {
+    display: none;
+    height: auto;
+    width: 300px;
+    bottom: auto;
+    top: 100%;
+    right: 1px;
+    position: absolute;
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
-
-
-#Top_bar .menu_wrapper {
-    float: left!important;
-    width: 100%;
-    margin: 0!important;
-}
-#Top_bar .menu_wrapper {
-    float: left;
+#Top_bar #menu {
     z-index: 201;
-}
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
