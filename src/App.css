@@ -7,7 +7,7 @@
   
 }
 
-select{
+select {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,14 +29,7 @@ select{
   
 }
 
-.div_Boto{
-  background-color: #65d118;
-  border-color: #5cc114;
-  height: 100%;
-  
-}
-
-.Botao{
+.Botao {
   display: flex;
   width: 100%;
   align-items: center;
@@ -45,10 +38,4 @@ select{
   border-color: #5cc114;
   height: 40px;
   margin-top: 20px;
-}
-
-input submit{
-  width: 100%;
-  background-color: #65d118;
-  border-color: #5cc114;
 }
