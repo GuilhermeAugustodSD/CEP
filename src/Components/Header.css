@@ -1,48 +1,55 @@
-/* Top Bar --------------------------------------------------------------------------- */
-#Top_bar{position:absolute;
-    left:0;
-    top:61px;
-    width:100%;
-    border-bottom:1px solid transparent;
-    z-index:30
+
+
+#Top_bar .logo {
+    position: static;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 0;
 }
 
-#Top_bar .column{
-    margin-bottom:0
+#Top_bar #logo, .header-fixed #Top_bar #logo, .header-plain #Top_bar #logo, .header-transparent #Top_bar #logo {
+    height: 60px;
+    line-height: 60px;
+    padding: 10px 0;
 }
 
-.layout-full-width.header-fw #Action_bar .container,.layout-full-width.header-fw #Top_bar .container{
-    max-width:100%
+#Top_bar #logo img.logo-main {
+    display: none;
 }
-#Top_bar .top_bar_left{
-    position:relative;
-    float:left;
-    width:990px
+#Top_bar #logo img {
+    vertical-align: middle;
+    max-height: 100%;
+}
+img.scale-with-grid, #Content img {
+    max-width: 100%;
+    height: auto;
 }
 
-	
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-	/* Menu wrapper */
-	#Top_bar .menu_wrapper {float:left;z-index:201;}
 
-	/* Secondary menu wrapper */
-	#Top_bar .secondary_menu_wrapper{display:none;}
-
-	/* Menu responsive */
-	#Top_bar a.responsive-menu-toggle{display:none;position:absolute;right:20px;top:50%;margin-top:-17px;width:34px;height:34px;text-align:center;border-radius:3px;z-index:200;}
-	#Top_bar a.responsive-menu-toggle i{font-size:22px;line-height:34px}
-	#Top_bar a.responsive-menu-toggle span{float:right;padding:10px 5px;line-height:14px}
-
-	/* Banner */
-	#Top_bar .banner_wrapper{display:none;}
-
-	/* Search wrapper */
-	#Top_bar .search_wrapper{position:absolute;left:0;top:100%;display:none;z-index:201;width:100%;padding:15px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
-	#Top_bar .search_wrapper input[type="text"]{width:100%;margin:0;box-sizing:border-box;-webkit-box-shadow:0 0 0;box-shadow:0 0 0;padding-left:35px;background:none;border-width:0 0 1px;border-style:solid;border-color:rgba(255,255,255,.08)!important;font-size:15px}
-	#Top_bar .search_wrapper input[type="text"]:focus{background-color:transparent!important}
-	#Top_bar .search_wrapper .icon_search,#Top_bar .search_wrapper .icon_close{position:absolute;top:25px;font-size:22px;line-height:22px;display:block}
-	#Top_bar .search_wrapper .icon_search{left:18px;color:rgba(0,0,0,.5)}
-	#Top_bar .search_wrapper .icon_close{right:18px;color:#fff;opacity:.3;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
-	#Top_bar .search_wrapper .icon_close:hover{right:18px;opacity:1}
-
-	
+#Top_bar .menu_wrapper {
+    float: left!important;
+    width: 100%;
+    margin: 0!important;
+}
+#Top_bar .menu_wrapper {
+    float: left;
+    z-index: 201;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, tt, var, b, u, i, center, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}

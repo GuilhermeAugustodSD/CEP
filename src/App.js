@@ -29,48 +29,56 @@ function App() {
   return (
     
     <div className="Container">
+      
       <div className="App">
         <form onSubmit={handleSubmit(onSubmit)}>
 
-          <div className='from-control'>
-            <label>
+          <div className='form-control'>
+            <label for="pais">
               País:
-              <input className='from-control' type="text" {...register("pais")} />
+
             </label>
+            <select id="pais" {...register("pais")}>
+              <option selected disabled value="" >Selecione</option>
+              <option>Brasil</option>
+              <option>Canada</option>
+              <option>Estados Unidos</option>
+              <option>Russia</option>
+            </select>
           </div>
 
-          <div className='from-control'>
+          <div className='form-control'>
             <label>
               CEP:
-              <input className='from-control' type="text" {...register("cep")} onBlur={validarCep} />
+              <input className='form-control' type="text" {...register("cep")} onBlur={validarCep} />
             </label>
           </div>
         
-          <div className='from-control'>
+          <div className='form-control'>
             <label>
               Estado: 
-              <input className='from-control' type="text" {...register("estado")} />
+              <input className='form-control' type="text" {...register("estado")} />
             </label>
           </div>
 
-          <div className='from-control'>
+          <div className='form-control'>
             <label>
               Cidade:
-              <input className='from-control' type="text" {...register("cidade")} />
+              <input className='form-control' type="text" {...register("cidade")} />
             </label>
           </div>
 
-          <div className='from-control'>
+          <div className='form-control'>
             <label>
               Bairro:
-              <input className='from-control' type="text" {...register("bairro")} />
+              <input className='form-control' type="text" {...register("bairro")} />
             </label>
           </div>
 
-          <div className='from-control'>
+          <div className='form-control'>
             <label>
               Rua:
-              <input className='from-control' type="text" {...register("rua")} />
+              <input className='form-control' type="text" {...register("rua")} />
             </label>
           </div>
 

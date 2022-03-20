@@ -34,11 +34,9 @@ function Header(){
                                 <li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page last"><a href="https://manejebem.com/projetos-de-sustentabilidade-da-manejebem/"><span>CASES</span></a></li>
                                 </ul></nav><a class="responsive-menu-toggle active" href="#"><i class="icon-menu-fine"></i></a>				</div>
 
-                        <div class="secondary_menu_wrapper">
-                                            </div>
+                        <div class="secondary_menu_wrapper"></div>
 
-                        <div class="banner_wrapper">
-                                            </div>
+                        <div class="banner_wrapper"></div>
 
                         <div class="search_wrapper">
                             

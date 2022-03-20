@@ -16,34 +16,17 @@ head{
   background-color: #227f4A;
 }
 
-.top_bar_left {
-  flex: 2px;
-  flex-direction: width;
-  background-color: #000000;
-  width: 100vw;
-  height: 20vh;
+html {
+  height: 100%;
+  min-height: 100%;
 }
 
-
-.menu_wrapper{
-  width: 10vw;
-  background-color: #227f4A;
-  justify-content: right;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
-#menu{
-  background-color: #227f4A;
-  flex-direction: width;
-  width: 100vw;
-  height: 20vh;
-  flex: 1;
-  justify-content: right;
-  
-}
-
-#menu-manejebem{
-  position: absolute;
-  flex-direction: row;
-  justify-content: right;
-  align-items: right;
+footer {
+  margin-top: auto;
 }

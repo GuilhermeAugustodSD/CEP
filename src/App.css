@@ -1,41 +1,54 @@
-.Conteiner {
-  display: flex;
-  width: 100vw;
-  
-}
 .App {
   display: flex;
   width: 100vw;
   align-items: center;
   justify-content: center;
+  margin-top: 10%;
   
 }
 
-.from-control {
+select{
   display: flex;
-  margin-top: 2px auto;
-  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 22px;
 }
 
 
-.from-control label {
+.form-control label {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px ;
   margin-bottom: 15px;
   text-align: center;
   font-weight: bold;
-
+  margin-bottom: 2%;
 
   
 }
 
-.div_Botao{
-  display: flex;
-  width: 30px;
-  background-color: white;
+.div_Boto{
+  background-color: #65d118;
+  border-color: #5cc114;
+  height: 100%;
+  
 }
 
 .Botao{
   display: flex;
-  width: 200px;
+  width: 100%;
   align-items: center;
   justify-content: center;
+  background-color: #65d118;
+  border-color: #5cc114;
+  height: 40px;
+  margin-top: 20px;
+}
+
+input submit{
+  width: 100%;
+  background-color: #65d118;
+  border-color: #5cc114;
 }
