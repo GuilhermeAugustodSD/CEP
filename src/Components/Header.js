@@ -14,13 +14,30 @@ function Header(){
                 <nav>
                     <ul>
                         <li>
-                            <a href="https://manejebem.com/"><span>Home</span></a>
+                            <a href="https://manejebem.com/"><span>HOME</span></a>
+                        </li>
+                        <li>
+                            <a href="https://manejebem.com/historia-da-manejebem/"><span>MANEJEBEM</span></a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://manejebem.com/projetos-esg/"><span>ESG</span></a>
+                        </li>
+                        <li>
+                            <a href="https://manejebem.com/assistencia-tecnica-agricola/"><span>ASSISTÊNCIA</span></a>
+                        </li>
+                        <li>
+                            <a href="https://manejebem.com/tecnologias-na-agricultura/"><span>TECNOLOGIAS</span></a>
+                        </li>
+                        <li>
+                            <a href="https://manejebem.com/impacto-socioambiental-na-agricultura/"><span>IMPACTO</span></a>
+                        </li>
+                        <li>
+                            <a href="https://manejebem.com/projetos-de-sustentabilidade-da-manejebem/"><span>CASES</span></a>
                         </li>
                     </ul>
                 </nav>
-
-            </div>
-            
+            </div>  
         </div>
     );
 }
