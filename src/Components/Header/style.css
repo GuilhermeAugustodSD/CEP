@@ -100,3 +100,10 @@ a.active, a:hover{
 
     }
 }
+
+@media (max-width: 600px){   /* Adicionado depois das 18 horas. Estava dando um bug no Header quando estava na versão mobile do navegador. Consertei com esse @media*/
+    img.logo{
+        margin-left: 50px;
+        transition: .5s;
+    }   
+}
