@@ -28,9 +28,9 @@ function Form(){
   }
 
     return(
-        <div className="App">
+      <div className="App">
         <form onSubmit={handleSubmit(onSubmit)}>
-
+          <label id='title'>Busque seu CEP</label>
           <div className='form-control'>
             <label for="pais">
               País:

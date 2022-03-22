@@ -1,3 +1,15 @@
+img.fundo {
+  left: 0px; 
+  top: 0px; 
+  overflow: hidden; 
+  margin: 0px; 
+  padding: 0px; 
+  height: 924px; 
+  width: 1920px; 
+  z-index: -999999; 
+  position: fixed;
+}
 .Conteiner{
+  position: absolute;
   width: 100%;
 }
